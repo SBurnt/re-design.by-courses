@@ -1,0 +1,22 @@
+// ======= GLOBAL =======
+@import "normalize";
+@import "reset";
+// @import "lib/swiper-bundle.min";
+// @import "lib/simplebar.min";
+// @import "lib/nouislider.min";
+// @import "lib/choices.min";
+@import "constants";
+@import "lib/base";
+@import "global";
+@import "layout";
+// @import 'controls';
+
+// ======= COMPONENTS =======
+@import "../../components/header/header";
+@import "../../components/footer/footer";
+
+// ======= PAGES =======
+@import "pages/index-page";
+
+// ======= BLOCKS =======
+// @import "blocks/modals";

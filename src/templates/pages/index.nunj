@@ -1,0 +1,9 @@
+{% extends "../ext/base.nunj" %}
+
+{% block content %}
+
+	<main class="main">
+		{# {% include '../blocks/.nunj' %} #}
+	</main>
+
+{% endblock content %}
