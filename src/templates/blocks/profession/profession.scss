@@ -1,0 +1,30 @@
+
+.profession {
+  .section__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 240px;
+  }
+
+  &__desc {
+    margin-bottom: 50px;
+
+    font-weight: 300;
+    font-size: 100px;
+    font-size: var(--font-size-prof-desc);
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+
+    strong {
+      font-weight: 600;
+    }
+  }
+
+  &__startDate {
+    margin-bottom: 15px;
+
+    font-weight: 400;
+    font-size: 20px;
+  }
+}

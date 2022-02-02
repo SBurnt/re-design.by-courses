@@ -3,7 +3,7 @@
 {% block content %}
 
 	<main class="main">
-		{# {% include '../blocks/.nunj' %} #}
+		{% include '../blocks/profession/profession.nunj' %}
 	</main>
 
 {% endblock content %}

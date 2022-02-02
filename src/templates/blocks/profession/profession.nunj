@@ -1,0 +1,12 @@
+<section class="profession">
+	<div class="container">
+		<div class="section__inner line">
+			<h2 class="section__title">Профессия</h2>
+			<span class="profession__desc">Дизайнер<br>
+				<strong>интерьеров</strong>
+			</span>
+			<span class="profession__startDate">Старт обучения с 19 марта</span>
+			<button class="btn red">записаться на курс</button>
+		</div>
+	</div>
+</section>
