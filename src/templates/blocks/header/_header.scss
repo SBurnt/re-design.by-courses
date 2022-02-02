@@ -1,0 +1,12 @@
+.header {
+  padding: 30px 0;
+
+  background-color: $bg-body-dark;
+
+  &__wrap {
+    display: grid;
+    align-items: center;
+
+    grid-template-columns: 2fr 1fr 2fr;
+  }
+}

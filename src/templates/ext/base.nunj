@@ -34,11 +34,11 @@
 	</head>
 	<body>
 		<div class="wrapper">
-			{% include '../../components/header/header.nunj' %}
+			{% include '../blocks/header/header.nunj' %}
 
 			{% block content %}{% endblock content %}
 
-			{% include '../../components/footer/footer.nunj' %}
+			{% include '../blocks/footer/footer.nunj' %}
 			{# {% include '../blocks/modals.nunj' %} #}
 		</div>
 		{% block scripts %}

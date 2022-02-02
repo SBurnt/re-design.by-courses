@@ -11,12 +11,14 @@
 @import "layout";
 // @import 'controls';
 
-// ======= COMPONENTS =======
-@import "../../components/header/header";
-@import "../../components/footer/footer";
-
 // ======= PAGES =======
 @import "pages/index-page";
 
 // ======= BLOCKS =======
 // @import "blocks/modals";
+@import "../../templates/blocks/header/header";
+@import "../../templates/blocks/footer/footer";
+
+// ======= COMPONENTS =======
+@import "../../components/logo/logo";
+@import "../../components/social/social";
