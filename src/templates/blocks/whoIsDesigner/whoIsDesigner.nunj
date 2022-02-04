@@ -1,0 +1,34 @@
+<section class="whoIsDesigner">
+	<div class="container">
+		<div class="section__inner">
+			<h2 class="section__title">кто такой дизайнер интерьеров?</h2>
+			<p class="section__subtitle">Мы дадим вам <strong>профессиональные знания и навыки,</strong> чтобы вы могли сразу устроиться на <strong>работу в компанию или начать работать на фрилансе.</strong>
+			</p>
+			<div class="whoIsDesigner__content">
+				<div class="whoIsDesigner__img-wrap">
+					<img class="whoIsDesigner__img lazyload" data-src="assets/images/main/whoIsDesigner.jpg" loading="lazy" alt="">
+				</div>
+				<div class="whoIsDesigner__info">
+					<div class="whoIsDesigner__text-wrap">
+						<p class="whoIsDesigner__text">
+							<strong>Дизайнер интерьеров -</strong> занимается продумыванием архитектурной концепции пространств, разработкой вариантов оформления интерьеров. Делает комплект рабочей документации, составляет спецификации и готовит визуализацию проекта.</p>
+						<p class="whoIsDesigner__text">Профессионал в дизайне интерьера должен разбираться в инженерных коммуникациях, типах и видах освещения, системах вентиляции и кондиционирования, отопления, канализации и водоснабжения. Разбираться в современных стилестических решениях и строительных материалах. Конкурентым преимуществом будет навык делать 3D визуализацию проекта.</p>
+					</div>
+					<div class="whoIsDesigner__numbers numbers">
+						<ul class="numbers__list">
+							<li class="numbers__item">
+								<div class="numbers__digit">2600</div>
+								<span class="numbers__desc">рублей, средняя зарплата специалиста</span>
+							</li>
+							<li class="numbers__item">
+								<div class="numbers__digit">140</div>
+								<span class="numbers__desc">вакансий на графического дизайнера по версии <strong>rabota.by</strong>
+								</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

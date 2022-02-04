@@ -4,6 +4,7 @@
 
 	<main class="main">
 		{% include '../blocks/profession/profession.nunj' %}
+		{% include '../blocks/whoIsDesigner/whoIsDesigner.nunj' %}
 	</main>
 
 {% endblock content %}

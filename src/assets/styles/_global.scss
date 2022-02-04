@@ -77,10 +77,7 @@ a:visited {
     padding: 60px 0;
   }
   @include media("max", "md") {
-    padding: 50px 0;
-  }
-  @include media("max", "sm") {
-    padding: 30px 0;
+    padding: 40px 0;
   }
 
   &.line {
@@ -89,12 +86,14 @@ a:visited {
 }
 
 .section__title {
-  display: inline;
+  display: block;
+  width: max-content;
   margin-bottom: 60px;
   padding: 11px 18px;
 
   font-weight: 700;
   font-size: 18px;
+  line-height: 27px;
   text-align: center;
   color: $color-red;
   text-transform: uppercase;
@@ -102,9 +101,34 @@ a:visited {
   border: 2px solid $color-red;
   border-radius: 40px;
 
-  @include media("max", "lg") {
-    font-size: 18px;
-    line-height: 22px;
+  @include media("max", "md") {
+    margin-bottom: 30px;
+    padding: 6px 14px;
+
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  &.left {
+    text-align: left;
+  }
+
+  &.right {
+    text-align: right;
+  }
+}
+
+.section__subtitle {
+  display: block;
+
+  font-weight: 300;
+  font-size: var(--font-size-subtitle);
+  color: $color-grey;
+  text-transform: uppercase;
+
+  strong {
+    font-weight: 500;
+    color: $color-primary;
   }
 
   &.left {
