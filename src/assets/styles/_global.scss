@@ -67,6 +67,17 @@ a:visited {
 
     background: $color-red;
     border-radius: 4px;
+
+    @include media("max", "md") {
+      padding: 16px 46px;
+
+      font-size: 20px;
+      line-height: 24px;
+    }
+    @include media("max", "sm") {
+      width: 100%;
+      padding: 16px;
+    }
   }
 }
 
