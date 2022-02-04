@@ -1,7 +1,16 @@
 .logo {
+  @include media("max", "md") {
+    order: -1;
+    justify-self: flex-start;
+  }
+
   justify-self: center;
 
   &__img {
     height: 80px;
+
+    @include media("max", "md") {
+      height: 30px;
+    }
   }
 }

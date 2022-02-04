@@ -3,10 +3,18 @@
 
   background-color: $bg-body-dark;
 
+  @include media("max", "md") {
+    padding: 16px 0;
+  }
+
   &__wrap {
     display: grid;
     align-items: center;
 
     grid-template-columns: 2fr 1fr 2fr;
+
+		@include media("max", "md") {
+      grid-template-columns: 1fr 1fr 0fr;
+    }
   }
 }
