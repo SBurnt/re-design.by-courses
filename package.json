@@ -95,6 +95,8 @@
     "core-js": "^3.6.4",
     "global": "^4.4.0",
     "gsap": "^3.2.4",
+    "inputmask": "^5.0.7",
+    "just-validate": "^3.4.0",
     "lazysizes": "^5.2.2",
     "nouislider": "^14.6.2",
     "regenerator-runtime": "^0.13.5",

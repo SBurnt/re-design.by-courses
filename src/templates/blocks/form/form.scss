@@ -122,6 +122,10 @@
       line-height: 16px;
     }
 
+		&.has__error {
+			border-color: $color-red;
+		}
+
     &:focus,
     &:not([value=""]) {
       background: #ffffff;
@@ -168,14 +172,14 @@
     bottom: -14px;
     left: 5px;
 
-    display: none;
+    // display: none;
 
     font-size: 12px;
     line-height: 14px;
-    color: $color-red;
+    color: $color-red !important;
 
     @include media("max", "md") {
-      top: -8px;
+      top: -5px;
 
       font-size: 10px;
       line-height: 12;

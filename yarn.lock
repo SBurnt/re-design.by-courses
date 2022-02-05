@@ -7454,6 +7454,11 @@
   "resolved" "https://registry.npmjs.org/ini/-/ini-1.3.8.tgz"
   "version" "1.3.8"
 
+"inputmask@^5.0.7":
+  "integrity" "sha512-rUxbRDS25KEib+c/Ow+K01oprU/+EK9t9SOPC8ov94/ftULGDqj1zOgRU/Hko6uzoKRMdwCfuhAafJ/Wk2wffQ=="
+  "resolved" "https://registry.npmjs.org/inputmask/-/inputmask-5.0.7.tgz"
+  "version" "5.0.7"
+
 "inquirer@^7.0.0":
   "integrity" "sha512-JG3eIAj5V9CwcGvuOmoo6LB9kbAYT8HXffUl6memuszlwDC/qvFAJw49XJ5NROSFNPxp3iQg1GqkFhaY/CR0IA=="
   "resolved" "https://registry.npmjs.org/inquirer/-/inquirer-7.3.3.tgz"
@@ -8291,6 +8296,11 @@
   "integrity" "sha1-h/zPrv/AtozRnVX2cilD+SnqNeo="
   "resolved" "https://registry.npmjs.org/just-debounce/-/just-debounce-1.0.0.tgz"
   "version" "1.0.0"
+
+"just-validate@^3.4.0":
+  "integrity" "sha512-/fv0HLCzFpe+mhnFdErox7g+s9Y/XYBcFvZSAcks0SWRoMuNizR+tA3z8+FM83mQql1g4baMYgT+EzVzFY3QBw=="
+  "resolved" "https://registry.npmjs.org/just-validate/-/just-validate-3.4.0.tgz"
+  "version" "3.4.0"
 
 "kew@^0.7.0":
   "integrity" "sha1-edk9LTM2PW/dKXCzNdkUGtWR15s="

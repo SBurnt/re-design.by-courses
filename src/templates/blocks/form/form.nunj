@@ -6,17 +6,16 @@
 					<strong>Записаться на курс</strong><br> или получить <strong>бесплатную консультацию</strong>
 				</h2>
 				<form class="form__feedback" action="https://jsonplaceholder.typicode.com/posts" method="POST">
-					<label class="form__label has-error">
-						<input class="form__input" type="text" name="name" onkeyup="this.setAttribute('value', this.value);" value>
+					<label class="form__label">
+						<input class="form__input input-name" type="text" name="name" onkeyup="this.setAttribute('value', this.value);" value>
 						<span class="form__input-placeholder">Имя</span>
-						<span class="form__input-error">Обязательное поле</span>
 					</label>
 					<label class="form__label">
-						<input class="form__input" type="tel" inputmode="tel" name="tel" onkeyup="this.setAttribute('value', this.value);" value>
+						<input class="form__input input-tel" type="tel" inputmode="tel" name="tel" onkeyup="this.setAttribute('value', this.value);" value>
 						<span class="form__input-placeholder">Телефон</span>
 					</label>
 					<label class="form__label">
-						<input class="form__input" type="email" name="email" onkeyup="this.setAttribute('value', this.value);" value>
+						<input class="form__input input-email" type="email" name="email" onkeyup="this.setAttribute('value', this.value);" value>
 						<span class="form__input-placeholder">Электронная почта</span>
 					</label>
 					<button class="btn red form__btn-send">записаться на курс</button>
