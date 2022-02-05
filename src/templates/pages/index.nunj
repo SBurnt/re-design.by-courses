@@ -7,6 +7,7 @@
 		{% include '../blocks/whoIsDesigner/whoIsDesigner.nunj' %}
 		{% include "../blocks/forWhom/forWhom.nunj" %}
 		{% include "../blocks/help/help.nunj" %}
+		{% include "../blocks/form/form.nunj" %}
 	</main>
 
 {% endblock content %}
