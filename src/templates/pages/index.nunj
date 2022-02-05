@@ -6,6 +6,7 @@
 		{% include '../blocks/profession/profession.nunj' %}
 		{% include '../blocks/whoIsDesigner/whoIsDesigner.nunj' %}
 		{% include "../blocks/forWhom/forWhom.nunj" %}
+		{% include "../blocks/help/help.nunj" %}
 	</main>
 
 {% endblock content %}
