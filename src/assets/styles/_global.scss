@@ -68,6 +68,8 @@ a:visited {
     background: $color-red;
     border-radius: 4px;
 
+    transition: all 0.1s ease-in;
+
     @include media("max", "md") {
       padding: 16px 46px;
 
@@ -77,6 +79,9 @@ a:visited {
     @include media("max", "sm") {
       width: 100%;
       padding: 16px;
+    }
+    &:hover {
+      box-shadow: 0 0 18px rgba(227, 7, 19, 0.4);
     }
   }
 }

@@ -54,6 +54,10 @@
     width: 50%;
     margin-top: 214px;
 
+		@include media("max", "xxl") {
+      margin-top: 130px;
+    }
+
     @include media("max", "xl") {
       width: 100%;
       margin-top: 20px;
