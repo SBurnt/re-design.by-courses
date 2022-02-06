@@ -1,0 +1,95 @@
+<section class="trainingProgram">
+	<div class="container">
+		<div class="section__inner line">
+			<h2 class="section__subtitle display-mob">
+				<strong>Подробная программа обучения</strong>
+			</h2>
+			<div class="trainingProgram__img-wrap">
+				<img class="trainingProgram__img lazyload" data-src="assets/images/main/trainingProgram.jpg" loading="lazy" alt="">
+			</div>
+			<div class="trainingProgram__content">
+				<h2 class="section__subtitle">
+					<strong>Подробная программа обучения</strong>
+				</h2>
+				<ul class="trainingProgram__list accordion__list">
+					<li class="trainingProgram__item accordion__item">
+						<button class="btn trainingProgram__btn accordion__control" aria-expanded="false">
+							<span class="trainingProgram__num">01</span>
+							<div class="trainingProgram__title-wrap">
+								<div>
+									<span class="trainingProgram__title">1 семестр (1 модуль):</span>
+									<span class="trainingProgram__title">Основы профессии дизайн интерьера</span>
+								</div>
+								<span class="trainingProgram__icon">
+									<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M6 9L12 15L18 9" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+								</span>
+							</div>
+						</button>
+						<div class="trainingProgram__info accordion__content" aria-hidden="true">
+							<p class="trainingProgram__desc">2 семестра - 162 часа офлайн занятий, 22 часа онлайн занятий, 23 часа онлайн консультаций</p>
+							<ul class="trainingProgram__list-tech">
+								<li class="trainingProgram__list-item">Композиция</li>
+								<li class="trainingProgram__list-item">Колористика</li>
+								<li class="trainingProgram__list-item">Интерьерный скетчинг</li>
+								<li class="trainingProgram__list-item">Adobe Photoshop</li>
+								<li class="trainingProgram__list-item">Стили в интерьере</li>
+								<li class="trainingProgram__list-item">Разработка концепции интерьера</li>
+							</ul>
+						</div>
+					</li>
+					<li class="trainingProgram__item accordion__item">
+						<button class="btn trainingProgram__btn accordion__control" aria-expanded="false">
+							<span class="trainingProgram__num">02</span>
+							<div class="trainingProgram__title-wrap">
+								<div>
+									<span class="trainingProgram__title">2 семестр (1 модуль):</span>
+									<span class="trainingProgram__title">Специализация в дизайн интерьера</span>
+								</div>
+								<span class="trainingProgram__icon">
+									<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M6 9L12 15L18 9" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+								</span>
+							</div>
+						</button>
+						<div class="trainingProgram__info accordion__content" aria-hidden="true">
+							<p class="trainingProgram__desc">1 семестр - 103 часа офлайн занятий, 16 часов онлайн занятий, 43 часа онлайн консультаций</p>
+							<ul class="trainingProgram__list-tech">
+								<li class="trainingProgram__list-item">Интерьерный скетчинг</li>
+								<li class="trainingProgram__list-item">Adobe Photoshop</li>
+								<li class="trainingProgram__list-item">Стили в интерьере</li>
+								<li class="trainingProgram__list-item">Разработка концепции интерьера</li>
+							</ul>
+						</div>
+					</li>
+					<li class="trainingProgram__item accordion__item">
+						<button class="btn trainingProgram__btn accordion__control" aria-expanded="false">
+							<span class="trainingProgram__num">03</span>
+							<div class="trainingProgram__title-wrap">
+								<div>
+									<span class="trainingProgram__title">2 модуль:</span>
+									<span class="trainingProgram__title">Интерьерная визуализация в 3Ds MAX</span>
+								</div>
+								<span class="trainingProgram__icon">
+									<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M6 9L12 15L18 9" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+								</span>
+							</div>
+						</button>
+						<div class="trainingProgram__info accordion__content" aria-hidden="true">
+							<p class="trainingProgram__desc">1 семестр - 103 часа офлайн занятий, 16 часов онлайн занятий, 43 часа онлайн консультаций</p>
+							<ul class="trainingProgram__list-tech">
+								<li class="trainingProgram__list-item">Adobe Photoshop</li>
+								<li class="trainingProgram__list-item">Стили в интерьере</li>
+								<li class="trainingProgram__list-item">Разработка концепции интерьера</li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>

@@ -28,6 +28,10 @@ $bg-gray: #1c1a1a;
 	--font-size-help__text: max(20px, min(24px, calc(var(--base-scale) * 4)));
 	--font-size-forWhom__title: max(24px, min(32px, calc(var(--base-scale) * 4)));
 	--font-size-forWhom__desc: max(16px, min(20px, calc(var(--base-scale) * 4)));
+	--font-size-trainingProgram__num: max(26px, min(60px, calc(var(--base-scale) * 4)));
+	--font-size-trainingProgram__title: max(24px, min(32px, calc(var(--base-scale) * 4)));
+	--font-size-trainingProgram__desc: max(14px, min(18px, calc(var(--base-scale) * 4)));
+	--font-size-trainingProgram__list-tech: max(20px, min(24px, calc(var(--base-scale) * 4)));
 
 	// size:
 	--border-radius: max(1em, min(3em, calc(var(--base-scale) * 3)));

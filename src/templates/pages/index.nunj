@@ -8,6 +8,7 @@
 		{% include "../blocks/forWhom/forWhom.nunj" %}
 		{% include "../blocks/help/help.nunj" %}
 		{% include "../blocks/form/form.nunj" %}
+		{% include "../blocks/trainingProgram/trainingProgram.nunj" %}
 	</main>
 
 {% endblock content %}
