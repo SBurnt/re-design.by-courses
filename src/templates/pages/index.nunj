@@ -10,6 +10,7 @@
 		{% include "../blocks/form/form.nunj" %}
 		{% include "../blocks/trainingProgram/trainingProgram.nunj" %}
 		{% include "../blocks/tools/tools.nunj" %}
+		{% include "../blocks/skills/skills.nunj" %}
 	</main>
 
 {% endblock content %}
