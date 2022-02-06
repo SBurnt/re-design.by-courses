@@ -1,0 +1,32 @@
+<section class="tools">
+	<div class="container">
+		<div class="section__inner line">
+			<h2 class="section__title">программы и инструменты</h2>
+			<h2 class="section__subtitle">
+				На курсе <strong>вы сможете овладеть</strong> такими программами как <strong>Revit, 3DSMAX, Adobe Photoshop.</strong>
+			</h2>
+			<ul class="tools__list">
+				<li class="tools__item">
+					<div class="tools__img-wrap">
+						<img class="tools__img lazyload" data-src="assets/images/ico/tools/tool-revit.svg" loading="lazy" alt="ico tool revit">
+					</div>
+				</li>
+				<li class="tools__item">
+					<div class="tools__img-wrap">
+						<img class="tools__img lazyload" data-src="assets/images/ico/tools/tool-3dsmax.svg" loading="lazy" alt="ico tool 3ds max">
+					</div>
+				</li>
+				<li class="tools__item">
+					<div class="tools__img-wrap">
+						<img class="tools__img lazyload" data-src="assets/images/ico/tools/tool-photoshop.svg" loading="lazy" alt="ico tool photoshop">
+					</div>
+				</li>
+				<li class="tools__item">
+					<div class="tools__img-wrap">
+						<img class="tools__img lazyload" data-src="assets/images/ico/tools/tool-DIALux.svg" loading="lazy" alt="ico tool DIALux">
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</section>

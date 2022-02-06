@@ -9,6 +9,7 @@
 		{% include "../blocks/help/help.nunj" %}
 		{% include "../blocks/form/form.nunj" %}
 		{% include "../blocks/trainingProgram/trainingProgram.nunj" %}
+		{% include "../blocks/tools/tools.nunj" %}
 	</main>
 
 {% endblock content %}
