@@ -66,10 +66,7 @@
 
     @include media("max", "lg") {
       &.red {
-        padding: 16px 46px;
-
-        font-size: 20px;
-        line-height: 24px;
+        padding: 16px;
       }
     }
   }
@@ -122,9 +119,9 @@
       line-height: 16px;
     }
 
-		&.has__error {
-			border-color: $color-red;
-		}
+    &.has__error {
+      border-color: $color-red;
+    }
 
     &:focus,
     &:not([value=""]) {
@@ -132,7 +129,7 @@
     }
 
     &:focus + .form__input-placeholder,
-		&:hover + .form__input-placeholder,
+    &:hover + .form__input-placeholder,
     &:not([value=""]) + .form__input-placeholder {
       font-size: 12px;
       line-height: 16px;
@@ -171,7 +168,6 @@
     position: absolute;
     bottom: -14px;
     left: 5px;
-
     // display: none;
 
     font-size: 12px;
