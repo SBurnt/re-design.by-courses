@@ -1,0 +1,38 @@
+<section class="education">
+	<div class="container">
+		<div class="section__inner">
+			<h2 class="section__title white">как проходит обучение?</h2>
+			<ul class="education__list accordion__list">
+				<li class="education__item accordion__item open">
+					<span class="education__title">Теоретическая часть и очень много практики</span>
+					<div class="education__info accordion__content" aria-hidden="true">
+						<p class="education__desc">Научитесь интерьерному, проектированию, грамотной разработке планироваочных решений, делать планы помещий, разрезы и развертки стен</p>
+					</div>
+					<button class="btn education__btn accordion__control" aria-expanded="false">
+						<div class="education__btn-plus"></div>
+					</button>
+				</li>
+
+				<li class="education__item accordion__item">
+					<span class="education__title">Рабочая практика на реальных объектах и посещение салонов</span>
+					<div class="education__info accordion__content" aria-hidden="true">
+						<p class="education__desc">Научитесь интерьерному, проектированию, грамотной разработке планироваочных решений, делать планы помещий, разрезы и развертки стен</p>
+					</div>
+					<button class="btn education__btn accordion__control" aria-expanded="false">
+						<div class="education__btn-plus"></div>
+					</button>
+				</li>
+
+				<li class="education__item accordion__item">
+					<span class="education__title">Личные встречи и расширение сети контактов</span>
+					<div class="education__info accordion__content" aria-hidden="true">
+						<p class="education__desc">Научитесь интерьерному, проектированию, грамотной разработке планироваочных решений, делать планы помещий, разрезы и развертки стен</p>
+					</div>
+					<button class="btn education__btn accordion__control" aria-expanded="false">
+						<div class="education__btn-plus"></div>
+					</button>
+				</li>
+			</ul>
+		</div>
+	</div>
+</section>

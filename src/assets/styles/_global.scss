@@ -132,6 +132,12 @@ a:visited {
   &.right {
     text-align: right;
   }
+
+  &.white {
+    color: #ffffff;
+
+    border-color: #ffffff;
+  }
 }
 
 .section__subtitle {

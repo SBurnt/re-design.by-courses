@@ -11,6 +11,7 @@
 		{% include "../blocks/trainingProgram/trainingProgram.nunj" %}
 		{% include "../blocks/tools/tools.nunj" %}
 		{% include "../blocks/skills/skills.nunj" %}
+		{% include "../blocks/education/education.nunj" %}
 	</main>
 
 {% endblock content %}

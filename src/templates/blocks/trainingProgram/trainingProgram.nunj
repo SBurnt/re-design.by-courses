@@ -12,7 +12,7 @@
 					<strong>Подробная программа обучения</strong>
 				</h2>
 				<ul class="trainingProgram__list accordion__list">
-					<li class="trainingProgram__item accordion__item">
+					<li class="trainingProgram__item accordion__item open">
 						<button class="btn trainingProgram__btn accordion__control" aria-expanded="false">
 							<span class="trainingProgram__num">01</span>
 							<div class="trainingProgram__title-wrap">

@@ -1,12 +1,14 @@
-const accordionsBtn = document.querySelectorAll('.accordion__control');
+const accordionTrainingProgramBtns = document.querySelectorAll('.trainingProgram__btn.accordion__control');
+const accordionEducationBtns = document.querySelectorAll('.education__btn.accordion__control');
+const accordionsItemStartOpen = document.querySelectorAll('.accordion__item.open');
 
-function acordion() {
-	const accordion = this.closest('.accordion__item');
-	const accordionBtn = accordion.querySelector('.accordion__control');
-	const accordionContent = accordion.querySelector('.accordion__content');
+function accordion() {
+	const accordionItem = this.closest('.accordion__item');
+	const accordionBtn = accordionItem.querySelector('.accordion__control');
+	const accordionContent = accordionItem.querySelector('.accordion__content');
 
-	if (accordion.classList.contains('open')) {
-		accordion.classList.remove('open');
+	if (accordionItem.classList.contains('open')) {
+		accordionItem.classList.remove('open');
 		accordionBtn.setAttribute('aria-expanded', false);
 		accordionContent.setAttribute('aria-hidden', true);
 		accordionContent.style.maxHeight = null;
@@ -24,13 +26,30 @@ function acordion() {
 			child.classList.remove('open');
 		});
 
-		accordion.classList.add('open');
+		accordionItem.classList.add('open');
 		accordionBtn.setAttribute('aria-expanded', true);
 		accordionContent.setAttribute('aria-hidden', false);
 		accordionContent.style.maxHeight = accordionContent.scrollHeight + 'px';
 	}
 }
 
-accordionsBtn.forEach(btn => {
-	btn.addEventListener('click', acordion);
+function accordionStartOpen(accordionItem) {
+	const accordionContent = accordionItem.querySelector('.accordion__content');
+	const accordionBtn = accordionItem.querySelector('.accordion__control');
+
+	accordionBtn.setAttribute('aria-expanded', true);
+	accordionContent.setAttribute('aria-hidden', false);
+	accordionContent.style.maxHeight = accordionContent.scrollHeight + 'px';
+}
+
+accordionsItemStartOpen.forEach(item => {
+	accordionStartOpen(item);
+});
+
+accordionTrainingProgramBtns.forEach(btn => {
+	btn.addEventListener('click', accordion);
+});
+
+accordionEducationBtns.forEach(btn => {
+	btn.addEventListener('click', accordion);
 });
