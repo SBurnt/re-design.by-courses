@@ -2,15 +2,13 @@
 import Swiper from '../../../node_modules/swiper/swiper-bundle';
 
 const sliderSkills = document.querySelector('.js-slider-skills-init');
+const sliderTicker = document.querySelector('.js-slider-ticker-init');
+
 if (sliderSkills) {
 	const swiper = new Swiper(sliderSkills, {
 		loop: true,
 		autoHeight: true,
 		speed: 0,
-		// autoplay: {
-		// 	delay: 5000,
-		// 	disableOnInteraction: false,
-		// },
 		navigation: {
 			nextEl: '.slider__arrows-next',
 			prevEl: '.slider__arrows-prev',
@@ -25,5 +23,17 @@ if (sliderSkills) {
 		// 		autoHeight: false,
 		// 	},
 		// },
+	});
+}
+
+if (sliderTicker) {
+	const swiper = new Swiper(sliderTicker, {
+		loop: true,
+		slidesPerView: 'auto',
+		speed: 1000,
+		autoplay: {
+			delay: 2000,
+			disableOnInteraction: false,
+		},
 	});
 }
