@@ -12,6 +12,7 @@
 		{% include "../blocks/tools/tools.nunj" %}
 		{% include "../blocks/skills/skills.nunj" %}
 		{% include "../blocks/education/education.nunj" %}
+		{% include "../blocks/whoWork/whoWork.nunj" %}
 	</main>
 
 {% endblock content %}
