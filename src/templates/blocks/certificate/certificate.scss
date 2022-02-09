@@ -1,4 +1,12 @@
 .certificate {
+  .section__title {
+    &.right {
+      @include media("max", "lg") {
+        margin-left: 0;
+      }
+    }
+  }
+
   &__wrapper {
     display: grid;
 
@@ -13,18 +21,9 @@
     grid-template-rows: 1fr 2fr;
   }
 
-  .section__subtitle {
-    // margin-bottom: 60px;
-    @include media("max", "lg") {
-      // margin-bottom: 30px;
-    }
-  }
-
   &__list {
     order: 2;
   }
-
-
 
   &__img-wrap {
     order: 1;

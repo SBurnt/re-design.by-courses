@@ -1,7 +1,7 @@
 <section class="certificate">
 	<div class="container">
 		<div class="section__inner">
-			<h2 class="section__title left">официальные документы</h2>
+			<h2 class="section__title right">официальные документы</h2>
 			<div class="certificate__wrapper">
 				<h2 class="section__subtitle">
 					<strong>сертификат по завершении</strong>

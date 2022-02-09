@@ -126,11 +126,11 @@ a:visited {
   }
 
   &.left {
-    text-align: left;
+    margin-right: auto;
   }
 
   &.right {
-    text-align: right;
+    margin-left: auto;
   }
 
   &.white {
