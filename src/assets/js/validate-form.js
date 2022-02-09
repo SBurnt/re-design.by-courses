@@ -17,7 +17,7 @@ validation
 	.addField('.input-name', [
 		{
 			rule: 'minLength',
-			value: 3,
+			value: 2,
 		},
 		{
 			rule: 'maxLength',

@@ -39,6 +39,9 @@ $bg-gray: #1c1a1a;
 	--font-size-education__desc: max(16px, min(24px, calc(var(--base-scale) * 4)));
 	--font-size-whoWork__title: max(16px, min(32px, calc(var(--base-scale) * 4)));
 	--font-size-whoWork__salary-num: max(26px, min(60px, calc(var(--base-scale) * 4)));
+	--fs-60-20: max(20px, min(60px, calc(var(--base-scale) * 4)));
+	--fs-24-16: max(16px, min(24px, calc(var(--base-scale) * 4)));
+	--fs-20-16: max(16px, min(20px, calc(var(--base-scale) * 4)));
 
 	// size:
 	--border-radius: max(1em, min(3em, calc(var(--base-scale) * 3)));

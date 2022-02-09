@@ -1,0 +1,46 @@
+<section class="teachers">
+	<div class="container">
+		<div class="section__inner">
+			<h2 class="section__subtitle">
+				<strong>кураторы и преподаВАТЕЛИ</strong>
+			</h2>
+			<div class="teachers__slider">
+				<div class="swiper-container teachers__slider-info js-slider-teachers-init">
+					<ul class="swiper-wrapper teachers__list">
+						<li class="swiper-slide teachers__item">
+							<div class="teachers__img-wrap">
+								<img class="teachers__img lazyload" data-src="assets/images/main/teachers/teachers-02.png" loading="lazy" alt="Андрей Кольга">
+							</div>
+							<span class="teachers__name">Андрей Кольга</span>
+							<span class="teachers__experience">Более 15-ти лет опыта</span>
+							<p class="teachers__desc">Дизайнер интерьера, художник, художник-рестовратор. В 2006 г. закончил Академию искусств по специальности дизайн интерьера. С 2014 года — член союза художников Беларуси, участник многочисленных художественных выставок и международных проектов. Опыт в проектировании общественных и жилых пространств — более 15-ти лет. В составе творческой группы Bastalia участвовал в проектах реставрвции интерьеров памятников архитектуры — Свято Петро-Павловкий собор в Минске, Усадебный дом-музей в Лошице, дворцово-замковый комплекс в Несвиже и т.д. Руководитель студии интерьеров AKstudio с 2010 года.</p>
+						</li>
+						<li class="swiper-slide teachers__item">
+							<div class="teachers__img-wrap">
+								<img class="teachers__img lazyload" data-src="assets/images/main/teachers/teachers-01.png" loading="lazy" alt="Евгения Кахно">
+							</div>
+							<span class="teachers__name">Евгения Кахно</span>
+							<span class="teachers__experience">Более 15-ти лет опыта</span>
+							<p class="teachers__desc">Художник, реставратор, педагог, дизайнер. Окончила БГУКИ, факультет традиционной белорусской культуры и современного искусства. За время обучения пробовала себя в разным видах творчества, что и помогло сформировать свой авторский почерк в нынешнем виде деятельности. Принимала участие в международных творческих проектах. На данный момент занимаюсь развитием собственного бренда интерьерных арт-обьектов. Безумно люблю вдохновлять и учить видеть прекрасное в простых вещах окружающих нас ежесекундно.</p>
+						</li>
+					</ul>
+				</div>
+				<div class="swiper-container teachers__slider-thumbs js-slider-teachers-thumbs-init">
+					<ul class="swiper-wrapper teachers__list-thumbs">
+						<!-- be sure to add a class 'swiper-slide-thumb-active' to the first item -->
+						<li class="swiper-slide teachers__item-thumbs swiper-slide-thumb-active">
+							<div class="teachers__img-wrap-thumbs">
+								<img class="teachers__img-thumbs lazyload" data-src="assets/images/main/teachers/teachers-02.png" loading="lazy" alt="Андрей Кольга">
+							</div>
+						</li>
+						<li class="swiper-slide teachers__item-thumbs">
+							<div class="teachers__img-wrap-thumbs">
+								<img class="teachers__img-thumbs lazyload" data-src="assets/images/main/teachers/teachers-01.png" loading="lazy" alt="Евгения Кахно">
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
