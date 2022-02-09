@@ -15,6 +15,7 @@
 		{% include "../blocks/whoWork/whoWork.nunj" %}
 		{% include "../blocks/ticker/ticker.nunj" %}
 		{% include "../blocks/teachers/teachers.nunj" %}
+		{% include "../blocks/certificate/certificate.nunj" %}
 	</main>
 
 {% endblock content %}
