@@ -13,7 +13,9 @@
 					<li class="certificate__item">Тусовка специалистов и полезных знакомств</li>
 				</ul>
 				<div class="certificate__img-wrap">
-					<img class="certificate__img lazyload" data-src="assets/images/main/certificate.jpg" loading="lazy" alt="сертификат">
+					<div class="certificate__img-cont">
+						<img class="certificate__img lazyload" data-src="assets/images/main/certificate.jpg" loading="lazy" alt="сертификат">
+					</div>
 				</div>
 			</div>
 		</div>
