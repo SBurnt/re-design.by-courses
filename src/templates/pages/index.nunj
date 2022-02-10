@@ -16,6 +16,7 @@
 		{% include "../blocks/ticker/ticker.nunj" %}
 		{% include "../blocks/teachers/teachers.nunj" %}
 		{% include "../blocks/certificate/certificate.nunj" %}
+		{% include "../blocks/cost/cost.nunj" %}
 	</main>
 
 {% endblock content %}

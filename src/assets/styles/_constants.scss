@@ -21,7 +21,7 @@ $bg-gray: #1c1a1a;
 
 	// font-size:
   --font-size-prof-desc: max(40px, min(100px, calc(var(--base-scale) * 4)));
-	--font-size-subtitle: max(26px, min(60px, calc(var(--base-scale) * 4)));
+	--font-size-subtitle: max(24px, min(60px, calc(var(--base-scale) * 4)));
 	--font-size-whoIsDesigner__text: max(20px, min(24px, calc(var(--base-scale) * 4)));
 	--font-size-numbers__digit: max(40px, min(100px, calc(var(--base-scale) * 4)));
 	--font-size-numbers__desc: max(16px, min(24px, calc(var(--base-scale) * 4)));
@@ -41,7 +41,9 @@ $bg-gray: #1c1a1a;
 	--font-size-whoWork__salary-num: max(26px, min(60px, calc(var(--base-scale) * 4)));
 	--fs-60-20: max(20px, min(60px, calc(var(--base-scale) * 4)));
 	--fs-24-16: max(16px, min(24px, calc(var(--base-scale) * 4)));
+	--fs-32-24: max(24px, min(32px, calc(var(--base-scale) * 4)));
 	--fs-20-16: max(16px, min(20px, calc(var(--base-scale) * 4)));
+	--fs-16-14: max(14px, min(16px, calc(var(--base-scale) * 4)));
 
 	// size:
 	--border-radius: max(1em, min(3em, calc(var(--base-scale) * 3)));
