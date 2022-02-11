@@ -6,7 +6,7 @@
 				<strong>интерьеров</strong>
 			</span>
 			<span class="profession__startDate">Старт обучения с 19 марта</span>
-			<button class="btn red">записаться на курс</button>
+			<button class="btn red js-btn-scroll-to-form" data-scroll-form="form-scroll" data-type="Записаться на курс">записаться на курс</button>
 		</div>
 	</div>
 </section>

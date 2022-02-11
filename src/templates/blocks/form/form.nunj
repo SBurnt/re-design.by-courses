@@ -1,7 +1,7 @@
 <section class="form">
 	<div class="container">
 		<div class="section__inner">
-			<div class="form__content">
+			<div class="form__content" id="form-scroll">
 				<h2 class="section__subtitle">
 					<strong>Записаться на курс</strong><br> или получить <strong>бесплатную консультацию</strong>
 				</h2>
@@ -18,6 +18,7 @@
 						<input class="form__input input-email" type="email" name="email" onkeyup="this.setAttribute('value', this.value);" value>
 						<span class="form__input-placeholder">Электронная почта</span>
 					</label>
+					<input class="input-type" type="hidden" name="type" value="Консультация">
 					<button class="btn red form__btn-send">записаться на курс</button>
 				</form>
 			</div>
