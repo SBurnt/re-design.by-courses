@@ -1,5 +1,6 @@
 const accordionTrainingProgramBtns = document.querySelectorAll('.trainingProgram__btn.accordion__control');
 const accordionEducationBtns = document.querySelectorAll('.education__btn.accordion__control');
+const accordionQuestionsBtns = document.querySelectorAll('.questions__btn.accordion__control');
 const accordionsItemStartOpen = document.querySelectorAll('.accordion__item.open');
 
 function accordion() {
@@ -29,7 +30,11 @@ function accordion() {
 		accordionItem.classList.add('open');
 		accordionBtn.setAttribute('aria-expanded', true);
 		accordionContent.setAttribute('aria-hidden', false);
-		accordionContent.style.maxHeight = accordionContent.scrollHeight + 'px';
+		if (accordionContent.classList.contains('questions__content')) {
+			accordionContent.style.maxHeight = accordionContent.scrollHeight + 40 + 'px';
+		} else {
+			accordionContent.style.maxHeight = accordionContent.scrollHeight + 'px';
+		}
 	}
 }
 
@@ -51,5 +56,9 @@ accordionTrainingProgramBtns.forEach(btn => {
 });
 
 accordionEducationBtns.forEach(btn => {
+	btn.addEventListener('click', accordion);
+});
+
+accordionQuestionsBtns.forEach(btn => {
 	btn.addEventListener('click', accordion);
 });

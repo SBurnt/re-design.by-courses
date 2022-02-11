@@ -5,10 +5,10 @@
 			<ul class="education__list accordion__list">
 				<li class="education__item accordion__item open">
 					<span class="education__title">Теоретическая часть и очень много практики</span>
-					<div class="education__info accordion__content" aria-hidden="true">
+					<div class="education__info accordion__content" aria-hidden="false">
 						<p class="education__desc">Научитесь интерьерному, проектированию, грамотной разработке планироваочных решений, делать планы помещий, разрезы и развертки стен</p>
 					</div>
-					<button class="btn education__btn accordion__control" aria-expanded="false">
+					<button class="btn education__btn accordion__control" aria-expanded="true">
 						<div class="education__btn-plus"></div>
 					</button>
 				</li>

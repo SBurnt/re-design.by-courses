@@ -17,6 +17,7 @@
 		{% include "../blocks/teachers/teachers.nunj" %}
 		{% include "../blocks/certificate/certificate.nunj" %}
 		{% include "../blocks/cost/cost.nunj" %}
+		{% include "../blocks/questions/questions.nunj" %}
 	</main>
 
 {% endblock content %}
