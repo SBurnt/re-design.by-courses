@@ -1,9 +1,33 @@
 /* eslint-disable no-unused-vars */
 import Swiper from '../../../node_modules/swiper/swiper-bundle';
 
+const sliderProfession = document.querySelector('.js-slider-profession-init');
 const sliderSkills = document.querySelector('.js-slider-skills-init');
 const sliderTicker = document.querySelector('.js-slider-ticker-init');
 const sliderTeachers = document.querySelector('.js-slider-teachers-init');
+
+if (sliderProfession) {
+	const swiper = new Swiper(sliderProfession, {
+		allowTouchMove: false,
+		slidesPerView: 1,
+		loop: true,
+		speed: 0,
+		autoplay: {
+			delay: 5000,
+			disableOnInteraction: false,
+		},
+		navigation: {
+			nextEl: '.profession .slider__arrows-prev',
+			prevEl: '.profession .slider__arrows-next',
+		},
+		breakpoints: {
+			// when window width is >= 768px
+			992: {
+				slidesPerView: 2,
+			},
+		},
+	});
+}
 
 if (sliderSkills) {
 	const swiper = new Swiper(sliderSkills, {
@@ -12,19 +36,13 @@ if (sliderSkills) {
 		autoHeight: true,
 		speed: 0,
 		navigation: {
-			nextEl: '.slider__arrows-next',
-			prevEl: '.slider__arrows-prev',
+			nextEl: '.skills .slider__arrows-next',
+			prevEl: '.skills .slider__arrows-prev',
 		},
 		pagination: {
 			el: '.slider__pagination',
 			clickable: true,
 		},
-		// breakpoints: {
-		// 	// when window width is >= 768px
-		// 	768: {
-		// 		autoHeight: false,
-		// 	},
-		// },
 	});
 }
 
