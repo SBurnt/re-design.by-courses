@@ -1,1 +1,1 @@
-# re-design.by-courses
+# https://re-design-courses.netlify.app/
