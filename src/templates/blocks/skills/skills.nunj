@@ -18,7 +18,7 @@
 							<div class="slider__content">
 								<div class="slider__desc-wrap">
 									<span class="slider__desc-numb">01</span>
-									<p class="slider__desc">Научитесь интерьерному, проектированию, грамотной разработке планировочных решений, делать планы помещий, разрезы и развертки стен</p>
+									<p class="slider__desc">Интерьерному проектированию, грамотной разработке планировочных решений, делать планы помещений, разрезы и развертки стен. Выполнять замеры, делать технические чертежи в Revit.</p>
 								</div>
 							</div>
 						</div>
@@ -29,7 +29,7 @@
 							<div class="slider__content">
 								<div class="slider__desc-wrap">
 									<span class="slider__desc-numb">02</span>
-									<p class="slider__desc"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, cum? </p>
+									<p class="slider__desc">Зонировать пространства. Освоите принципы композиции, колористики. Познакомитесь с основными и современными стилями в архитектуре и дизайне интерьеров. Научитесь подбирать и сочетать между собой мебель, декор, аксессуары исходя из заданной концепции проекта.</p>
 								</div>
 							</div>
 						</div>
@@ -40,7 +40,7 @@
 							<div class="slider__content">
 								<div class="slider__desc-wrap">
 									<span class="slider__desc-numb">03</span>
-									<p class="slider__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia optio vel tempora sapiente odio. Ipsa illum mollitia praesentium corrupti voluptas odio?</p>
+									<p class="slider__desc">Овладеете базовым инструментам визуализации скетчинг, коллажирование, макетирование. Познакомитесь с разными строительными материалами. Научитесь подбирать материалы и отделку исходя из бюджета проекта.</p>
 								</div>
 							</div>
 						</div>
@@ -51,7 +51,7 @@
 							<div class="slider__content">
 								<div class="slider__desc-wrap">
 									<span class="slider__desc-numb">04</span>
-									<p class="slider__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae, voluptatum! Consequuntur doloremque cupiditate officia!</p>
+									<p class="slider__desc">Научитесь делать 3D визуализацию проекта в 3D MAX.</p>
 								</div>
 							</div>
 						</div>

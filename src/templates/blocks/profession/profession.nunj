@@ -1,6 +1,6 @@
 <section class="profession">
 	<div class="container">
-		<div class="section__inner line">
+		<div class="section__inner">
 			<div class="slider">
 				<div class="swiper-container slider__container js-slider-profession-init">
 					<ul class="swiper-wrapper slider__list">
@@ -29,11 +29,11 @@
 			</div>
 			<div class="profession__content">
 				<h2 class="section__title">Профессия</h2>
-				<span class="profession__desc">Дизайнер<br>
+				<h2 class="profession__desc">Дизайнер<br>
 					<strong>интерьеров</strong>
-				</span>
+				</h2>
 				<span class="profession__startDate">Старт обучения с 19 марта</span>
-				<button class="btn red js-btn-scroll-to-form" data-scroll-form="form-scroll" data-type="Записаться на курс">записаться на курс</button>
+				<button class="btn red js-btn-scroll-to-form" data-scroll-block="form-scroll" data-type="Записаться на курс">записаться на курс</button>
 				<div class="slider__arrows-wrap">
 					<button class="btn slider__arrows-prev">
 						<svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -11,9 +11,9 @@
 						<span class="questions__btn-plus"></span>
 					</button>
 					<div class="questions__content accordion__content" aria-hidden="true">
-						<p class="questions__answer">Программа курса и процесс обучения разработаны таким образом, что эффективно обучаться по ней могут как новички, так и более опытные ребята. У вас будет возможность проводить регулярные онлайн консультации с преподавателем.<br><br>
+						<p class="questions__answer">Программа курса и процесс обучения разработаны таким образом, что эффективно обучаться по ней могут как новички, так и более опытные люди.<br><br>
 							Эта программа обучения представляет из себя последовательное введение в профессию. Мы постарались тщательно выстроить траекторию обучения и структурировать знания наших экспертов, чтобы сложная информация была доступной для понимания и погружение в новую дисциплину было максимально последовательным.<br><br>
-							Таким образом, вы можете начать обучение графическому дизайну  с отсутствием базовых знаний в дизайне и инструментах дизайна, а по завершению обучения вы будете готовы начать работу над задачами ваших клиентов.
+							Таким образом, вы можете начать обучение дизайну интерьера с отсутствием базовых знаний в дизайне, а по завершению обучения вы будете готовы начать работу над задачами ваших клиентов.
 						</p>
 					</div>
 				</li>
@@ -23,7 +23,7 @@
 						<span class="questions__btn-plus"></span>
 					</button>
 					<div class="questions__content accordion__content" aria-hidden="true">
-						<p class="questions__answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptas est at ad ipsa iusto atque ipsum, neque reiciendis.<br><br> Quisquam ipsam ea corrupti cumque recusandae iste nulla animi tenetur minus aspernatur ratione, obcaecati culpa quae omnis cupiditate, necessitatibus laborum exercitationem dicta, quia sint. Rerum, cum in perspiciatis quisquam fugiat optio ipsa sapiente sunt vel ut aut dolorem. Soluta voluptate asperiores facilis itaque rerum sequi explicabo eligendi, cum mollitia molestiae excepturi odio, quibusdam ullam ducimus, officia iure. Laboriosam consectetur accusantium tempore delectus. Adipisci eaque temporibus esse doloremque incidunt ut repudiandae, sint officia hic cupiditate nulla, tempore natus ea, minus placeat? Eius rem rerum dolorem soluta voluptatem ex quos ad delectus earum. Adipisci ut dolor, possimus unde beatae sint rerum ratione libero sit! Aspernatur, fuga? Quidem repellat perferendis blanditiis commodi iusto. Earum accusamus quo temporibus molestias, consequatur vitae ipsam alias eaque deleniti! Corrupti distinctio ad consequatur qui officia reprehenderit. Quasi at quae totam. Deleniti quasi molestiae, quis dolorum itaque, doloribus, doloremque consequatur neque minus suscipit tempore. Consequuntur, a voluptas minus eos culpa aperiam, at obcaecati vero ipsum expedita fuga aspernatur dolore. Quod, consequuntur. Numquam quis facilis repellat porro sint quas reprehenderit unde laborum corporis sed eveniet tempora eaque maxime, quia nulla eum asperiores.</p>
+						<p class="questions__answer">Большая часть занятий проходит офлайн. Мы убеждены, что освоение такой профессии как графический дизайнер более эффективно при аудиторном обучении в тесном контакте с преподавателем и коллегами по обучению.</p>
 					</div>
 				</li>
 				<li class="questions__item accordion__item">
@@ -32,25 +32,17 @@
 						<span class="questions__btn-plus"></span>
 					</button>
 					<div class="questions__content accordion__content" aria-hidden="true">
-						<p class="questions__answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut mollitia soluta iste nihil non facere nobis tempora, aliquam corporis accusamus cum quisquam id excepturi quaerat? Maxime quaerat culpa fugiat officiis minus, placeat corrupti unde eveniet? Soluta voluptatem nisi amet? Numquam in laboriosam eveniet inventore accusantium alias ipsam voluptate? Minima ullam necessitatibus, iste aperiam quia illum? Amet!</p>
+						<p class="questions__answer">У нас предусмотрены скидки при оплате за модуль или полный курс. При уплате за Первый модуль в два этапа вам предоставляется скидка в размере 5%, при уплате за весь модуль единым платежом — 7%. При уплате за Второй модуль единым платежом предоставляется скидка в размере 5%</p>
 					</div>
 				</li>
 				<li class="questions__item accordion__item">
 					<button class="btn questions__btn accordion__control" aria-expanded="false">
-						<span class="questions__name">Что делать, если я не успеваю или пропускаю часть обучения?</span>
+						<span class="questions__name">Помогаете ли вы с трудоустройством?</span>
 						<span class="questions__btn-plus"></span>
 					</button>
 					<div class="questions__content accordion__content" aria-hidden="true">
-						<p class="questions__answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sed, dolorum quis aliquam officiis tempore odio architecto temporibus perspiciatis itaque.</p>
-					</div>
-				</li>
-				<li class="questions__item accordion__item">
-					<button class="btn questions__btn accordion__control" aria-expanded="false">
-						<span class="questions__name">Как вы помогаете с трудоустройством?</span>
-						<span class="questions__btn-plus"></span>
-					</button>
-					<div class="questions__content accordion__content" aria-hidden="true">
-						<p class="questions__answer">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum asperiores iusto modi aut sapiente voluptate iure quam eligendi! Ex sed eaque debitis commodi perspiciatis vitae nihil architecto consequuntur, aperiam, natus ratione obcaecati, aliquam consectetur vero. Placeat, dolorem saepe porro ipsam architecto eligendi dicta earum. Cumque quae quisquam soluta a tenetur porro, amet itaque labore modi laboriosam eos nesciunt pariatur obcaecati, rem consequuntur! Error iste, assumenda animi ex excepturi perferendis facere explicabo labore voluptas eaque autem illo dolorem dolores sed blanditiis cumque qui nemo a.</p>
+						<p class="questions__answer">Ваше карьерное развитие и трудоустройство является для нас одной из приоритетных задач. Для этого мы подбираем партнеров, которые могут проконсультировать вас на тему развития карьеры.<br><br>
+							Мы часто получаем запросы от работодателей по поиску и подбору специалистов, и с радостью делимся портфолио и контактами студентов, которые показали хорошие результаты на курсе и находятся в активном поиске работы.</p>
 					</div>
 				</li>
 			</ul>

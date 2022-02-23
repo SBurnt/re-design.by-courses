@@ -14,7 +14,7 @@
 				</ul>
 				<div class="certificate__img-wrap">
 					<div class="certificate__img-cont">
-						<img class="certificate__img lazyload" data-src="assets/images/main/certificate.jpg" loading="lazy" alt="сертификат">
+						<img class="certificate__img lazyload" data-src="assets/images/main/certificate2.jpg" loading="lazy" alt="сертификат">
 					</div>
 				</div>
 			</div>

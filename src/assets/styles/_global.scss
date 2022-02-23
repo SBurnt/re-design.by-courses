@@ -57,11 +57,11 @@ a:visited {
   outline: none;
 
   &.red {
-    padding: 21px 52px;
+    padding: 18px 49px;
 
     font-weight: 700;
-    font-size: 24px;
-    line-height: 29px;
+    font-size: var(--fs-20-18);
+    line-height: 120%;
     color: #ffffff;
     text-transform: uppercase;
 
@@ -72,9 +72,6 @@ a:visited {
 
     @include media("max", "md") {
       padding: 16px 46px;
-
-      font-size: 20px;
-      line-height: 24px;
     }
     @include media("max", "sm") {
       width: 100%;
@@ -87,10 +84,10 @@ a:visited {
 }
 
 .section__inner {
-  padding: 80px 0;
+  padding: 60px 0;
 
   @include media("max", "lg") {
-    padding: 60px 0;
+    padding: 50px 0;
   }
   @include media("max", "md") {
     padding: 40px 0;
@@ -104,12 +101,12 @@ a:visited {
 .section__title {
   display: block;
   width: max-content;
-  margin-bottom: 60px;
-  padding: 8px 18px;
+  margin-bottom: 40px;
+  padding: 7px 17px;
 
   font-weight: 700;
-  font-size: 18px;
-  line-height: 27px;
+  font-size: var(--fs-16-14);
+  line-height: 140%;
   text-align: center;
   color: $color-red;
   text-transform: uppercase;
@@ -120,9 +117,6 @@ a:visited {
   @include media("max", "md") {
     margin-bottom: 30px;
     padding: 6px 14px;
-
-    font-size: 14px;
-    line-height: 21px;
   }
 
   &.left {
@@ -144,7 +138,8 @@ a:visited {
   display: block;
 
   font-weight: 300;
-  font-size: var(--font-size-subtitle);
+  font-size: var(--fs-35-22);
+  line-height: 120%;
   color: $color-grey;
   text-transform: uppercase;
 

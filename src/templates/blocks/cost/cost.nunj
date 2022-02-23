@@ -1,4 +1,4 @@
-<section class="cost">
+<section class="cost" id="cost-scroll">
 	<div class="container">
 		<div class="section__inner">
 			<div class='cost__wrap-title'>
@@ -13,10 +13,10 @@
 							<span>12 месяцев</span>
 						</div>
 						<div class="item__start">Старт курса:
-							<span>27 января</span>
+							<span>19 марта 2022</span>
 						</div>
-						<p class="item__desc">Первый модуль (Дизайн интерьера) - 12 месяцев. Стоимость модуля при уплате в 12 взносов - 3540 рублей.</p>
-						<button class="btn red item__btn js-btn-scroll-to-form" data-scroll-form="form-scroll" data-type="Первый модуль">купить</button>
+						<p class="item__desc">Первый модуль (Дизайн интерьера) - 12 месяцев. Стоимость модуля при уплате в 12 взносов - 295 руб/мес.</p>
+						<button class="btn red item__btn js-btn-scroll-to-form" data-scroll-block="form-scroll" data-type="Первый модуль">купить</button>
 					</div>
 				</li>
 				<li class="cost__item item">
@@ -26,10 +26,10 @@
 							<span>6 месяцев</span>
 						</div>
 						<div class="item__start">Старт курса:
-							<span>27 января</span>
+							<span>19 марта 2023</span>
 						</div>
-						<p class="item__desc">Второй модуль (интерьерная визуализация в 3Ds MAX)  - 6 месяцев. Стоимость модуля при уплате в 6 взносов -  1770 рублей. </p>
-						<button class="btn red item__btn js-btn-scroll-to-form" data-scroll-form="form-scroll" data-type="Второй модуль">купить</button>
+						<p class="item__desc">Второй модуль (интерьерная визуализация в 3Ds MAX)  - 6 месяцев. Стоимость модуля при уплате в 6 взносов - 295 руб/мес.</p>
+						<button class="btn red item__btn js-btn-scroll-to-form" data-scroll-block="form-scroll" data-type="Второй модуль">купить</button>
 					</div>
 				</li>
 				<li class="cost__item item">
@@ -39,10 +39,10 @@
 							<span>18 месяцев</span>
 						</div>
 						<div class="item__start">Старт курса:
-							<span>27 января</span>
+							<span>19 марта 2022</span>
 						</div>
-						<p class="item__desc">Полный курс, состоящий из двух модулей - 18 месяцев. Стоимость в модуля при уплате в 18 взносов  - 5310 рублей. </p>
-						<button class="btn red item__btn js-btn-scroll-to-form" data-scroll-form="form-scroll" data-type="Полный курс">купить</button>
+						<p class="item__desc">Полный курс, состоящий из двух модулей - 18 месяцев. Стоимость модуля при уплате в 18 взносов  - 295 руб/мес.</p>
+						<button class="btn red item__btn js-btn-scroll-to-form" data-scroll-block="form-scroll" data-type="Полный курс">купить</button>
 					</div>
 				</li>
 			</ul>

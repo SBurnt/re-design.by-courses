@@ -19,13 +19,13 @@
 
   &__list {
     width: 100%;
-    max-width: 1380px;
+    max-width: 1300px;
     margin: 0 auto;
   }
 
   &__item {
     &:not(:last-child) {
-      margin-bottom: 10px;
+      margin-bottom: 8px;
     }
     &.open {
       .questions__content {
@@ -60,7 +60,7 @@
     align-items: center;
     width: 100%;
     margin-bottom: 4px;
-    padding: 30px 60px;
+    padding: 17px 60px;
 
     background-color: #ffffff;
     border-radius: 4px;
@@ -68,19 +68,25 @@
     @include media("max", "lg") {
       padding: 16px;
     }
+
+    &:hover {
+      .questions__btn-plus {
+        &::before,
+        &::after {
+          background-color: $color-red;
+        }
+      }
+    }
   }
 
   &__name {
     margin-right: 10px;
 
     font-weight: 600;
-    font-size: var(--fs-32-18);
+    font-size: var(--fs-22-18);
     line-height: 120%;
     text-align: left;
 
-    @include media("max", "lg") {
-      font-size: 24px;
-    }
     @include media("max", "md") {
       font-size: 18px;
     }
@@ -89,7 +95,7 @@
   &__btn-plus {
     position: relative;
 
-    padding: 26px;
+    padding: 22px;
 
     border: 2px solid #d8d6d6;
     border-radius: 4px;
@@ -97,7 +103,7 @@
     transition: all 0.3s ease-in-out;
 
     @include media("max", "md") {
-      padding: 21px;
+      padding: 20px;
     }
     &:hover {
       &::before,
@@ -161,7 +167,7 @@
   }
 
   &__answer {
-    font-size: var(--fs-20-16);
+    font-size: var(--fs-19-16);
     line-height: 150%;
 
     @include media("max", "lg") {

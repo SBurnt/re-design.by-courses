@@ -6,10 +6,9 @@
   .section__subtitle {
     position: relative;
     z-index: 2;
+    // margin-bottom: -45px;
 
-    margin-bottom: -45px;
-
-    text-indent: 23%;
+    text-indent: 10%;
 
     @include media("max", "xl") {
       margin-bottom: 30px;
@@ -29,10 +28,12 @@
   &__img-wrap {
     z-index: 1;
 
-    width: calc(50% - 80px);
-    height: 962px;
-    margin-right: 80px;
+    width: calc(35% - 60px);
+    height: 550px;
+    margin-right: 60px;
     overflow: hidden;
+
+    border-radius: 4px;
 
     @include media("max", "xl") {
       width: 100vw;
@@ -51,13 +52,12 @@
   }
 
   &__info {
-    width: 50%;
-    margin-top: 214px;
+    width: 65%;
+    margin-top: 80px;
 
-		@include media("max", "xxl") {
-      margin-top: 130px;
+    @include media("max", "xxl") {
+      margin-top: 65px;
     }
-
     @include media("max", "xl") {
       width: 100%;
       margin-top: 20px;
@@ -65,15 +65,11 @@
   }
 
   &__text {
-    margin-bottom: 29px;
+    margin-bottom: 18px;
 
     font-weight: 300;
-    font-size: var(--font-size-whoIsDesigner__text);
-    line-height: 36px;
-
-    @include media("max", "md") {
-      line-height: 30px;
-    }
+    font-size: var(--fs-20-18);
+    line-height: 150%;
 
     strong {
       font-weight: 700;
@@ -90,7 +86,7 @@
 .numbers {
   position: relative;
 
-  margin-top: 80px;
+  margin-top: 60px;
 
   background-color: $bg-body-dark;
 
@@ -121,10 +117,10 @@
   &__list {
     display: flex;
     justify-content: space-between;
-    padding: 70px 0;
+    padding: 30px 0;
 
     @include media("max", "xl") {
-      padding: 40px 0;
+      padding: 25px 0;
     }
   }
 
@@ -144,22 +140,17 @@
   }
 
   &__digit {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 
     font-weight: 600;
-    font-size: var(--font-size-numbers__digit);
+    font-size: var(--fs-55-30);
     font-family: $raleway;
     color: $color-red;
   }
 
   &__desc {
-    font-size: var(--font-size-numbers__desc);
-    line-height: 36px;
-
-    @include media("max", "md") {
-      font-size: 16px;
-      line-height: 24px;
-    }
+    font-size: var(--fs-19-16);
+    line-height: 150%;
 
     strong {
       font-weight: 600;

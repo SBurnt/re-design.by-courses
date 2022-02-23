@@ -1,7 +1,5 @@
 .social {
-	@include media("max", "md") {
-		justify-self: flex-end;
-	}
+  // justify-self: flex-end;
 
   &__list {
     display: flex;

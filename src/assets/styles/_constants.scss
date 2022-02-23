@@ -17,37 +17,45 @@ $bg-dark: #050505;
 $bg-gray: #1c1a1a;
 
 :root {
-  --base-scale: calc(100vw / 75);
+  // 16px = maxPX, 14px = minPX, 2 = maxPX - minPX
+  --fs-16-14: min(16px, calc(14px + 2 * (100vw / 1920)));
+  --fs-18-14: min(18px, calc(14px + 4 * (100vw / 1920)));
+  --fs-19-16: min(19px, calc(16px + 3 * (100vw / 1920)));
+  --fs-20-16: min(20px, calc(16px + 4 * (100vw / 1920)));
+  --fs-20-18: min(20px, calc(18px + 2 * (100vw / 1920)));
+  --fs-22-18: min(22px, calc(18px + 4 * (100vw / 1920)));
+  --fs-23-16: min(23px, calc(16px + 7 * (100vw / 1920)));
+  --fs-24-16: min(24px, calc(16px + 8 * (100vw / 1920)));
+  --fs-24-20: min(24px, calc(20px + 4 * (100vw / 1920)));
+  --fs-28-20: min(28px, calc(20px + 8 * (100vw / 1920)));
+  --fs-32-16: min(32px, calc(16px + 16 * (100vw / 1920)));
+  --fs-32-18: min(32px, calc(18px + 14 * (100vw / 1920)));
+  --fs-32-20: min(32px, calc(20px + 12 * (100vw / 1920)));
+  --fs-32-24: min(32px, calc(24px + 8 * (100vw / 1920)));
+  --fs-35-22: min(35px, calc(22px + 13 * (100vw / 1920)));
+  --fs-40-22: min(40px, calc(22px + 18 * (100vw / 1920)));
+	--fs-55-30: min(55px, calc(30px + 25 * (100vw / 1920)));
+  --fs-65-35: min(65px, calc(35px + 30 * (100vw / 1920)));
+  --mr-100-40: min(100px, calc(40px + 60 * (100vw / 1920)));
 
-	// font-size:
-  --font-size-prof-desc: max(40px, min(100px, calc(var(--base-scale) * 4)));
-	--font-size-subtitle: max(24px, min(60px, calc(var(--base-scale) * 4)));
-	--font-size-whoIsDesigner__text: max(20px, min(24px, calc(var(--base-scale) * 4)));
-	--font-size-numbers__digit: max(40px, min(100px, calc(var(--base-scale) * 4)));
-	--font-size-numbers__desc: max(16px, min(24px, calc(var(--base-scale) * 4)));
-	--font-size-help__text: max(20px, min(24px, calc(var(--base-scale) * 4)));
-	--font-size-forWhom__title: max(24px, min(32px, calc(var(--base-scale) * 4)));
-	--font-size-forWhom__desc: max(16px, min(20px, calc(var(--base-scale) * 4)));
-	--font-size-trainingProgram__num: max(26px, min(60px, calc(var(--base-scale) * 4)));
-	--font-size-trainingProgram__title: max(24px, min(32px, calc(var(--base-scale) * 4)));
-	--font-size-trainingProgram__desc: max(14px, min(18px, calc(var(--base-scale) * 4)));
-	--font-size-trainingProgram__list-tech: max(20px, min(24px, calc(var(--base-scale) * 4)));
-	--font-size-slider__desc-numb: max(26px, min(60px, calc(var(--base-scale) * 4)));
-	--font-size-slider__desc: max(16px, min(20px, calc(var(--base-scale) * 4)));
-	--font-size-education__title: max(20px, min(32px, calc(var(--base-scale) * 4)));
-	--font-size-education__title-open: max(26px, min(60px, calc(var(--base-scale) * 4)));
-	--font-size-education__desc: max(16px, min(24px, calc(var(--base-scale) * 4)));
-	--font-size-whoWork__title: max(16px, min(32px, calc(var(--base-scale) * 4)));
-	--font-size-whoWork__salary-num: max(26px, min(60px, calc(var(--base-scale) * 4)));
-	--fs-60-20: max(20px, min(60px, calc(var(--base-scale) * 4)));
-	--fs-24-16: max(16px, min(24px, calc(var(--base-scale) * 4)));
-	--fs-32-24: max(24px, min(32px, calc(var(--base-scale) * 4)));
-	--fs-32-18: max(18px, min(32px, calc(var(--base-scale) * 4)));
-	--fs-20-16: max(16px, min(20px, calc(var(--base-scale) * 4)));
-	--fs-16-14: max(14px, min(16px, calc(var(--base-scale) * 4)));
-
-	// size:
-	--border-radius: max(1em, min(3em, calc(var(--base-scale) * 3)));
-  --margin-size-form-content: max(40px, min(160px, calc(var(--base-scale) * 4)));
-  --padding-size: max(1em, min(2em, calc(var(--base-scale) * 2)));
+  @media (max-width: 767.98px) {
+    --fs-16-14: calc(14px + (2 + 2 * 0.7) * ((100vw - 360px) / 1920));
+    --fs-18-14: calc(14px + (4 + 4 * 0.7) * ((100vw - 360px) / 1920));
+    --fs-19-16: calc(16px + (3 + 3 * 0.7) * ((100vw - 360px) / 1920));
+    --fs-20-16: calc(16px + (4 + 4 * 0.7) * ((100vw - 360px) / 1920));
+    --fs-20-18: calc(18px + (2 + 2 * 0.7) * ((100vw - 360px) / 1920));
+    --fs-22-18: calc(18px + (4 + 4 * 0.7) * ((100vw - 360px) / 1920));
+    --fs-23-16: calc(16px + (7 + 7 * 0.7) * ((100vw - 360px) / 1920));
+    --fs-24-16: calc(16px + (8 + 8 * 0.7) * ((100vw - 360px) / 1920));
+    --fs-24-20: calc(20px + (4 + 4 * 0.7) * ((100vw - 360px) / 1920));
+    --fs-28-20: calc(20px + (8 + 8 * 0.7) * ((100vw - 360px) / 1920));
+    --fs-32-16: calc(16px + (16 + 16 * 0.7) * ((100vw - 360px) / 1920));
+    --fs-32-18: calc(18px + (14 + 14 * 0.7) * ((100vw - 360px) / 1920));
+    --fs-32-20: calc(20px + (12 + 12 * 0.7) * ((100vw - 360px) / 1920));
+    --fs-32-24: calc(24px + (8 + 8 * 0.7) * ((100vw - 360px) / 1920));
+		--fs-35-22: calc(22px + (13 + 13 * 0.7) * ((100vw - 360px) / 1920));
+    --fs-40-22: calc(22px + (18 + 18 * 0.7) * ((100vw - 360px) / 1920));
+		--fs-55-30: calc(30px + (25 + 25 * 0.7) * ((100vw - 360px) / 1920));
+    --fs-65-35: calc(35px + (30 + 30 * 0.7) * ((100vw - 360px) / 1920));
+  }
 }

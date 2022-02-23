@@ -1,6 +1,7 @@
 .tools {
   .section__subtitle {
-    margin-bottom: 80px;
+    max-width: 1030px;
+    margin-bottom: 60px;
 
     @include media("max", "lg") {
       margin-bottom: 30px;
@@ -10,7 +11,7 @@
   &__list {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 50px;
+    margin-left: 30px;
 
     @include media("max", "lg") {
       margin-left: 35px;
@@ -23,9 +24,9 @@
   &__item {
     position: relative;
 
-    width: calc(25% + 50px);
-    margin-left: -50px;
-    padding-top: calc(25% + 50px);
+    width: calc(25% + 30px);
+    margin-left: -30px;
+    padding-top: calc(25% + 30px);
 
     background: linear-gradient(110.19deg, #f6eee3 18.31%, rgba(246, 238, 227, 0) 104.36%);
     border-radius: 50%;

@@ -1,4 +1,4 @@
-<section class="ticker">
+<div class="ticker">
 	<div class="section__inner">
 		<div class="swiper-container js-slider-ticker-init">
 			<ul class="swiper-wrapper ticker__list">
@@ -29,4 +29,4 @@
 			</ul>
 		</div>
 	</div>
-</section>
+</div>

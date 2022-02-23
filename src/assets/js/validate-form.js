@@ -65,11 +65,13 @@ validation
 			if (xhr.readyState === 4) {
 				if (xhr.status === 200) {
 					console.log('Отправлено');
+					const thanks = document.querySelector('.form__thanks');
+					thanks.classList.add('active');
 				}
 			}
 		};
 
-		xhr.open('POST', 'assets/files/mail.php', true);
+		xhr.open('POST', 'assets/files/send.php', true);
 		xhr.send(formData);
 
 		nameSelector.setAttribute('value', '');

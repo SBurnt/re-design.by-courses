@@ -6,7 +6,7 @@
   &__list {
     display: flex;
     align-items: center;
-    height: 330px;
+    height: 280px;
 
     @include media("max", "lg") {
       height: 160px;
@@ -21,8 +21,8 @@
   .semicircle {
     &-l,
     &-r {
-      width: 145px;
-      height: 290px;
+      width: 120px;
+      height: 240px;
 
       background-color: $color-red;
 
@@ -71,7 +71,7 @@
 
   .REdesign {
     .ticker__img-wrap {
-      height: 330px;
+      height: 280px;
 
       @include media("max", "lg") {
         height: 160px;
@@ -99,7 +99,7 @@
     &Minus15deg,
     &Plus15deg {
       .ticker__img {
-        height: 239px;
+        height: 205px;
 
         @include media("max", "lg") {
           height: 115px;

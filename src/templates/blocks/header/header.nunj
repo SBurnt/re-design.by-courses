@@ -2,9 +2,29 @@
 	<div class="container">
 		<div class="header__wrap">
 			<h1 class="invisible-container">Дизайнер интерьеров Re-design</h1>
-			{% include "../../../components/social/social.nunj" %}
 			{% include "../../../components/logo/logo.nunj" %}
-			<div></div>
+			<nav class="header__nav nav">
+				<ul class="nav__list">
+					<li class="nav__item">
+						<a class="nav__link js-btn-scroll-to-form" href="#" title="Программа" data-scroll-block="trainingProgram-scroll">Программа</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link js-btn-scroll-to-form" href="#" title="Преподаватели" data-scroll-block="teachers-scroll">Преподаватели</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link js-btn-scroll-to-form" href="#" title="Стоимость" data-scroll-block="cost-scroll">Стоимость</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link js-btn-scroll-to-form" href="#" title="Обучение" data-scroll-block="education-scroll">Обучение</a>
+					</li>
+				</ul>
+			</nav>
+			{% include "../../../components/phones/phones.nunj" %}
+			<button class="btn-mob-menu js-btn-mob-menu" type="button">
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
 		</div>
 	</div>
 </header>

@@ -3,8 +3,8 @@
 
   .section__subtitle {
     width: 100%;
-    max-width: 900px;
-    margin-bottom: -45px;
+    max-width: 520px;
+    margin-bottom: -35px;
 
     @include media("max", "lg") {
       margin-bottom: 30px;
@@ -40,7 +40,7 @@
   &__item {
     position: relative;
 
-    padding-top: 50px;
+    padding-top: 45px;
 
     @include media("max", "md") {
       padding-top: 20px;
@@ -67,6 +67,6 @@
 
 
   &__text {
-    font-size: var(--font-size-help__text);
+    font-size: var(--fs-20-18);
   }
 }

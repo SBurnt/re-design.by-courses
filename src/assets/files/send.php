@@ -5,9 +5,9 @@ $usertel = $_POST['tel'];
 $useremail = $_POST['email'];
 $typeCourse = $_POST['type'];
 
-$userdate = date('Y-m-d H:i:s');
-
 echo ' username ' . $username;
 echo ' usertel ' .  $usertel;
 echo ' useremail ' .  $useremail;
 echo ' typeCourse ' .  $typeCourse;
+
+require_once __DIR__ . "/telegram.php"; // Send to Telegram

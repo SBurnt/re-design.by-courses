@@ -1,9 +1,8 @@
 <footer class="footer">
 	<div class="container">
 		<div class="header__wrap">
-			{% include "../../../components/social/social.nunj" %}
 			{% include "../../../components/logo/logo.nunj" %}
-			<div></div>
+			{% include "../../../components/social/social.nunj" %}
 		</div>
 	</div>
 </footer>

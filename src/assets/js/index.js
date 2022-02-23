@@ -1,5 +1,6 @@
 import 'core-js/stable';
 // import 'regenerator-runtime/runtime';
+import './header';
 import './lazyload';
 import './modals';
 import './swiper';

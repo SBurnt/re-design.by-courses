@@ -1,8 +1,8 @@
 .skills {
   .section__subtitle {
     width: 100%;
-    max-width: 1060px;
-    margin-bottom: -45px;
+    max-width: 720px;
+    margin-bottom: -35px;
 
     @include media("max", "lg") {
       margin-bottom: 30px;
@@ -27,10 +27,6 @@
     }
   }
 
-  &__slider {
-    // background-color: $bg-body-dark
-  }
-
   .slider {
     background-color: $bg-body-dark;
 
@@ -47,13 +43,8 @@
       grid-template-columns: 1fr 1fr;
     }
 
-    &__content {
-      // display: flex;
-      // align-items: center;
-    }
-
     &__img-wrap {
-      height: 600px;
+      height: 550px;
 
       @include media("max", "lg") {
         height: 280px;
@@ -70,7 +61,7 @@
     &__desc-wrap {
       max-width: 780px;
       margin: 100px 15px 0 -80px;
-      padding: 60px;
+      padding: 40px;
 
       background-color: #ffffff;
       border-radius: 4px;
@@ -87,7 +78,7 @@
       margin-bottom: 20px;
 
       font-weight: 600;
-      font-size: var(--font-size-slider__desc-numb);
+      font-size: var(--fs-35-22);
       font-family: $raleway;
       color: $color-red;
 
@@ -97,23 +88,21 @@
     }
 
     &__desc {
-      max-height: 114px;
+      max-height: 150px;
       overflow-y: auto;
 
-      font-size: var(--font-size-slider__desc);
-      line-height: 32px;
+      font-size: var(--fs-20-16);
+      line-height: 150%;
 
       @include media("max", "lg") {
         max-height: none;
-
-        line-height: 25px;
       }
     }
 
     &__control {
       position: absolute;
       right: 30%;
-      bottom: 100px;
+      bottom: 90px;
       z-index: 1;
 
       display: flex;

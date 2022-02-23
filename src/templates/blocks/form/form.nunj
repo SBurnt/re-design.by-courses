@@ -5,7 +5,7 @@
 				<h2 class="section__subtitle">
 					<strong>Записаться на курс</strong><br> или получить <strong>бесплатную консультацию</strong>
 				</h2>
-				<form class="form__feedback" action="https://jsonplaceholder.typicode.com/posts" method="POST">
+				<form class="form__feedback" method="POST" data-netlify="true">
 					<label class="form__label">
 						<input class="form__input input-name" type="text" name="name" onkeyup="this.setAttribute('value', this.value);" value>
 						<span class="form__input-placeholder">Имя</span>
@@ -21,6 +21,7 @@
 					<input class="input-type" type="hidden" name="type" value="Консультация">
 					<button class="btn red form__btn-send">записаться на курс</button>
 				</form>
+				<p class="form__thanks">Спасибо, ваше сообщение отправлено, наши менеджеры скоро свяжутся с вами.</p>
 			</div>
 			<div class="form__img-wrap">
 				<img class="form__img lazyload" data-src="assets/images/main/form-feedback.jpg" loading="lazy" alt="">

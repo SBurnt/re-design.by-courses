@@ -7,7 +7,7 @@
   justify-self: center;
 
   &__img {
-    height: 80px;
+    height: 60px;
 
     @include media("max", "md") {
       height: 30px;

@@ -35,8 +35,7 @@
     margin-bottom: 50px;
 
     font-weight: 300;
-    font-size: 100px;
-    font-size: var(--font-size-prof-desc);
+    font-size: var(--fs-65-35);
     text-transform: uppercase;
     letter-spacing: 0.02em;
     text-shadow: 0 0 12px rgba(255, 255, 255, 0.8);
@@ -54,17 +53,17 @@
     margin-bottom: 15px;
 
     font-weight: 400;
-    font-size: 20px;
+    font-size: var(--fs-20-16);
+    line-height: 150%;
 
     @include media("max", "md") {
       margin-bottom: 10px;
-
-      font-size: 16px;
     }
   }
 
   .slider {
-    height: 940px;
+    height: 700px;
+		height: calc(100vh - 180px);
 
     @include media("max", "lg") {
       height: 280px;
@@ -84,7 +83,8 @@
     }
 
     &__img-wrap {
-      height: 940px;
+      height: 700px;
+			height: calc(100vh - 180px);
       overflow: hidden;
 
       border-radius: 4px;
@@ -103,7 +103,7 @@
 
     &__arrows-wrap {
       position: absolute;
-      bottom: -130px;
+      bottom: -100px;
 
       display: flex;
       width: max-content;
@@ -167,7 +167,8 @@
 
       .slider__img-wrap {
         width: 29%;
-        height: 600px;
+        height: 500px;
+				height: calc(100vh - 420px);
 
         @include media("max", "lg") {
           width: 100%;
